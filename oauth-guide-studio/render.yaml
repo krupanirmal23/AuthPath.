@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: authpath-oauth-guide-studio
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
